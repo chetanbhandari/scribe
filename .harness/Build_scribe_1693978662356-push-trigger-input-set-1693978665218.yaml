@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_scribe_1693978662356-push-trigger-input-set
+  identifier: Build_scribe_1693978662356pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_scribe_1693978662356
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
